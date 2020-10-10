@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zokijevoime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h2>Saznaj svoje Zoki ime, unesi ispod mjesec i dan rođenja:</h2>
+        <hr>
+        <br>
+    </header>
+    <main>
+        <div>
+            <label for="dd_gender">Spol:</label>&nbsp;
+            <select id="dd_gender" name="dd_gender">
+                <option value="female">Žensko</option>
+                <option value="male">Muško</option>
+            </select>
+        </div>
+        <div>
+            <label for="dd_month">Mjesec:</label>&nbsp;
+            <select id="dd_month" name="dd_month"></select>
+        </div>
+        <div>
+            <label for="dd_day">Dan:</label>&nbsp;
+            <select id="dd_day" name="dd_day"></select>
+        </div>
+        <div>
+            <br>
+            Tvoje ime je:<span id="span_name">...</span>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        Samo za zabavu i promociju radosti programiranja. :-)
+        <br>
+        <input id="btn_rnd" type="button" value="Nasumično ime? :-)">
+    </footer>
+
+    <script defer src="app.js"></script>
+</body>
+</html>
