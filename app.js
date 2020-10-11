@@ -18,7 +18,7 @@
 
     const dayMap = new Map([
         [1,     { female: "agitatorica", male: "agitator" }],
-        [2,     { female: "mediokritet", male: "mediokritet" }],
+        [2,     { female: "mediokritetašica", male: "mediokritet" }],
         [3,     { female: "guslarica", male: "guslar" }],
         [4,     { female: "mudroslovka", male: "mudroslov" }],
         [5,     { female: "drukerica", male: "druker" }],
