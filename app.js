@@ -11,9 +11,9 @@
         ["7 - Srpanj",      { female: "Neozbiljna",             male: "Neozbiljni" }],
         ["8 - Kolovoz",     { female: "Samodeklarirana",        male: "Samodeklarirani" }],
         ["9 - Rujan",       { female: "Drugorazredna",          male: "Drugorazredni" }],
-        ["10 - Studeni",     { female: "Nasilna",                male: "Nasilni" }],
-        ["11 - Listopad",    { female: "Sveprisutna",            male: "Sveprisutni" }],
-        ["12 - Prosinac",    { female: "Propala",                male: "Propali" }],
+        ["10 - Listopad",   { female: "Nasilna",                male: "Nasilni" }],
+        ["11 - Studeni",    { female: "Sveprisutna",            male: "Sveprisutni" }],
+        ["12 - Prosinac",   { female: "Propala",                male: "Propali" }],
     ]);
 
     const dayMap = new Map([
