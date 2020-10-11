@@ -95,8 +95,8 @@
         let dayNamePart;
         try {
             dayNamePart = dayMap.get(Number(dd_day.value))[dd_gender.value];
-        } catch (error) {
-            console.log(error);
+        } catch {
+            dayNamePart = dd_gender.value == "female" ? "rušiteljica ovog programčića" : "rušitelj ovog programčića";
         }
 
         document.getElementById("span_name").innerHTML = `${monthNamePart} ${dayNamePart}`;
