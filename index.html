@@ -21,13 +21,13 @@
       }
 
       main > div {
-        margin-bottom: 10px;
+        margin-bottom: .8em;
       }
 
       select {
         margin-top: 0.3em;
         display: block;
-        height: 3em;
+        height: 2.6em;
         width: 100%;
         font-size: 1em;
       }
@@ -45,9 +45,20 @@
         position: fixed;
         bottom: 0;
         left: 0;
-        height: 5em;
+        height: 4em;
         font-size: 1.5em;
         width: 100%;
+        background-color: #eee;
+        border-top: 5px solid #bbb;
+        outline: none;
+        outline-style: none;
+      }
+
+      @media only screen and (max-width: 600px) {
+        html,
+        body {
+          font-size: 12px;
+        }
       }
     </style>
   </head>
